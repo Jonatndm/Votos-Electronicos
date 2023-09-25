@@ -28,5 +28,11 @@ namespace Votos
             Votar frmVotar = new Votar();
             frmVotar.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Resultados frmResultado = new Resultados();
+            frmResultado.ShowDialog();
+        }
     }
 }

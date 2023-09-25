@@ -61,6 +61,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "Ver Resultados";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
@@ -71,7 +72,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Centro de Votos";
             this.ResumeLayout(false);
 
         }

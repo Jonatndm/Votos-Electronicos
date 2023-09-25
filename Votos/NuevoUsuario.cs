@@ -41,5 +41,10 @@ namespace Votos
                 
             }
         }
+
+        private void NuevoUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
